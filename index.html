@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/src/input.css">
+    <link rel="shortcut icon" href="/src/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <title>Google</title>
+</head>
+<body class="font-roboto">
+    <div class="flex flex-col min-h-screen justify-between">
+        <div>
+            <header class="lg:flex lg:justify-end items-center m-5">
+                <div class="hidden lg:block space-x-5 text-gray-500 ">
+                    <a href="#" class="text-sm hover:underline">Gmail</a>
+                    <a href="#" class="text-sm hover:underline">Images</a>
+                    <a href="#" class="px-2 py-1 hover:bg-neutral-100 duration-200 rounded-full"><img class="w-4 h-4 opacity-60 inline-block" src="/src/menu-svgrepo-com.svg" alt=""></a>
+                    <a href="#" class="py-2 px-6 duration-200 hover:shadow-btn rounded-md hover:bg-[#115ec3] text-white bg-[#1a73e8]">Sign in</a>
+                </div>
+                <div class="lg:hidden flex items-center justify-between ">
+                    <div class="flex gap-3 items-center">
+                        <span><i class="bi bi-list text-2xl"></i></span>
+                        <a href="#" class="text-xs text-blue-500 py-3 px-3 border-b-2 border-blue-600">ALL</a>
+                        <a href="#" class="text-xs">IMAGES</a>
+                    </div>
+                    <div>
+                        <a href="#" class="px-2 py-1 hover:bg-neutral-100 duration-200 rounded-full"><img class="w-4 h-4 opacity-60 inline-block" src="/src/menu-svgrepo-com.svg" alt=""></a>
+                        <a href="#" class="py-2 px-6 duration-200 hover:shadow-btn ml-5 rounded-md hover:bg-[#115ec3] text-white bg-[#1a73e8]">Sign in</a>
+                    </div>
+                </div>
+            </header>
+        
+            <!-- main section  -->
+            <div class="flex flex-col items-center justify-end mt-20">
+                <div>
+                    <img class="w-[13rem] md:w-[18rem]" src="/src/googlelogo_color_272x92dp.png" alt="">
+                </div>
+                <div class="flex flex-grow mt-8 mx-10 py-2 px-3 rounded-3xl items-center duration-200 hover:shadow-input hover:border-transparent border-2">
+                    <span><i class="bi bi-search opacity-60 pr-5"></i></span>
+                    <input type="text" class="outline-none min-w-[10rem] md:min-w-[20rem] lg:min-w-[24rem]">
+                    <a href="#" class="px-6">
+                        <img class="hidden w-3 lg:block" src="/src/Google_mic.svg.png" alt="">
+                    </a>
+                    <a href="#" class="">
+                        <img class="w-6 lg:block md:hidden" src="/src/Camera_icon.svg" alt="">
+                    </a>
+                </div>
+                <div class="pt-5 hidden md:block">
+                    <a href="#" class="bg-gray-100 border-2 border-transparent px-3 py-2 mr-3 hover:shadow-btn2 hover:border-gray-200 hover:border-2 rounded-md">Google Search</a>
+                    <a href="#" class="bg-gray-100 border-2 border-transparent px-3 py-2 hover:shadow-btn2 hover:border-gray-200 hover:border-2 rounded-md">I'm Feeling Lucky</a>
+                </div>
+                <div class="pt-10 flex gap-x-2 text-xs">
+                    <h6 class="text-gray-500">Google offered in: </h6>
+                    <a href="#" class="text-purple-800 hover:underline">Francais</a>
+                    <a href="#" class="text-purple-800 hover:underline">Kiswahili</a>
+                    <a href="#" class="text-purple-800 hover:underline">Ikinyarwanda</a>
+                </div>
+            </div>
+        </div>
+        
+            <!-- footer  -->
+        <div class="bg-neutral-100 w-full">
+            <div class="py-2 border-b px-3 md:px-10">
+                <h5 class="text-slate-500">Rwanda</h5>
+            </div>
+            <div class="py-2 border-b text-xs md:text-base md:px-10 px-3 gap-y-5 lg:gap-y-0 md:flex  md:flex-row flex-shrink-0 flex-wrap justify-center lg:justify-between text-slate-500">
+                <div class="flex gap-x-6 order-2 lg:order-1">
+                    <a href="#" class="hover:underline order-3 md:-order-none">About</a>
+                    <a href="#" class="hover:underline order-1 md:-order-none">Advertising</a>
+                    <a href="#" class="hover:underline order-2 md:-order-none">Business</a>
+                    <a href="#" class="hover:underline hidden lg:block">How Search Works</a>
+                </div>
+                <div class="flex gap-x-6 lg:order-2">
+                    <a href="#"  class="hover:underline order-3 md:-order-none">Privacy</a>
+                    <a href="#"  class="hover:underline order-4 md:-order-none">Terms</a>
+                    <a href="#"  class="hover:underline order-2 md:-order-none">Settings</a>
+                    <a href="#" class="hover:underline order-1 lg:hidden">Dark theme: off</a>
+                </div>
+            </div>
+        </div>
+    </div>
+   
+    
+</body>
+</html>
