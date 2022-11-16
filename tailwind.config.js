@@ -31,6 +31,7 @@ module.exports = {
         'btn' : '.25rem'
       }
 
+
     },
   },
   plugins: [],
