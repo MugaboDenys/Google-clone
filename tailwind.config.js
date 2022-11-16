@@ -26,6 +26,9 @@ module.exports = {
         'xsm' : '10rem',
         'sm' : '20rem',
         'base' : '24rem'
+      },
+      borderRadius : {
+        'btn' : '.25rem'
       }
 
     },
