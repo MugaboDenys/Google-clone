@@ -7,9 +7,9 @@ module.exports = {
         roboto: ["Roboto", "sans-serif"],
       },
       boxShadow: {
-        btn: "0 0 2px gray",
-        btn2: "0 3px 5px -5px gray",
-        input: "0 0 6px gray",
+        xs: "0 0 2px gray",
+        '3xl': "0 3px 5px -5px gray",
+        '4xl': "0 0 6px gray",
       },
       colors: {
         paleblue: "#1a73e8",
@@ -18,17 +18,13 @@ module.exports = {
       fontSize: {
         smaller: ".7rem",
       },
-      width: {
-        xs: "13rem",
-        sm: "18rem",
-      },
       minWidth: {
         xsm: "10rem",
         sm: "20rem",
         base: "24rem",
       },
       borderRadius: {
-        btn: ".25rem",
+        '4xl': ".25rem",
       },
     },
   },
